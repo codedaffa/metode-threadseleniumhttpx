@@ -4,7 +4,7 @@
 
 demo => https://youtu.be/RFudBVQI03k
 
-Kikisan adalah sisten scraping data produk dari tokopedia.com yang terdiri dari 7 metode, dan menggunakan microservice sebagai struktur di sistemnya.
+Metode ini merupakan kombinasi antara konsep multithreading dari Selenium dan HTTPX. Dalam pendekatan ini, Selenium digunakan untuk scraping halaman search produk dari platform Tokopedia.com, sementara HTTPX digunakan untuk melakukan permintaan HTTP ke halaman detail produk dan halaman toko yang bersifat Multi-Threading. 
 
 ### frontend
 kikisan.site :  https://github.com/codedaffa/kikisan.git
